@@ -1,0 +1,28 @@
+.nav-text, .nav-text:hover {
+    color: #00285F;
+    padding-left: 20px;
+    min-height: 70px;
+}
+
+.main-menu-ul {
+    display: flex;
+    width: 220px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.main-menu-ul a {
+    font-weight: 400px;
+    color: #00285F;
+    font-size: 18px;
+
+}
+
+.main-menu-home {
+    font-weight: bold;
+}
+
+h4, h4:hover{
+    font-size: 24px;
+    color: #00285F;
+}

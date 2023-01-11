@@ -1,0 +1,44 @@
+.home-container {
+    padding: 20px;
+    width: 300px;
+    border: 5px solid red;
+
+}
+
+.home-content-container1 {
+    border: 2px solid blue;
+    background-color: #00285F;
+    /* box-shadow: 0, 0, 0, 0.25;*/
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.home-content-text1 {
+    /*display: flex;*/
+    align-items: center;
+}
+
+.home-content-container1 h1{
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.home-content-container1 h2{
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.home-content-image {
+    border: 2px solid yellow;
+    width: 244px;
+    padding: 0 15px;
+}
+
+.home-content-image svg{
+    width: 100%;
+    height: auto;
+}
+
+.home-content-container2 {
+    border: 2px solid green
+}
