@@ -1,6 +1,7 @@
 import Navbar from 'components/navbar';
 import { ReactComponent as CarImage } from 'assets/images/car-image.svg'
 import './styles.css';
+import Button from 'components/Button';
 
 const Home = () => {
     return (
@@ -17,7 +18,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='home-content-container2'>
-                <button>VER CATÁLOGO</button>
+              <Button />
                 <h6>Comece agora a navegar</h6>
 
             </div>

@@ -1,0 +1,18 @@
+.btn:hover {
+    color: #ffff;
+    background-color: #00285F ;
+}
+
+.btn {
+    padding: 12px 37px;
+    text-align: center;
+}
+
+.container-btn button{
+    width: 280px;
+    
+}
+
+.container-btn p {
+    height: 16px;
+}
