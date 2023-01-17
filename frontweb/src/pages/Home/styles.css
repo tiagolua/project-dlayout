@@ -3,6 +3,7 @@
     border: 5px solid red;
     font-size: 22px;
     text-align: center;
+    background-color: #ffff;
 }
 
 .home-content-container1 {
@@ -20,12 +21,13 @@
 }
 
 .home-content-container1 h1{
-    padding: 0px 20px;
     font-size: 1em;
     font-weight: 700px;
+    width: 500px;
+    padding: ;
 }
 
-.home-content-container1 h2{
+.home-content-container1 p{
     font-size: 14px;
     font-size: 0.7em;
     padding: 15px 0px 50px;
@@ -42,30 +44,33 @@
 }
 
 .home-content-container2 {
-    display: block;
-    background-color: #EDEDED;
-    width: 20px 10px 121px;
-    padding: 28px 63px;
-    height: 123px;
+    display: flex;
+    flex-direction: column;
+    background: #EDEDED;
+    padding: 28px 70px;
+    margin: 20px 10px;    
     border-radius: 10px;
-    margin-bottom: 100px;
-    border: 2px solid green
+    border: 2px solid green;
+    text-align: center;
 }
 
-.home-content-container2 button {
+/*.home-content-container2 button {
     padding: 12px 37px 12px 36px;
     background: #00285F;
     color: #FFFFFF;
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
-}
+}*/
 
-.home-content-container2  {
+.home-content-container2 p {
+    margin: 9px 51px 25px 50px;
     font-size: 18px;
     font-weight: normal;
     color: #585858;
 }
+
+
 
 
 @media (min-width: 576px) {
@@ -75,19 +80,21 @@
 
     .home-content-container2 {
         flex-direction: row;
+        width: 535px;
+        margin-top: 30px;
+
     }
 
-    .home-content-container h1 {
-        width: 400px;
-      }
+    .home-content-image svg{
+        width: 333px;
+    }
     
-    .home-content-container h2 {
-        width: 410px;
+    .home-content-container p {
+        width: 199px;
+        font-size: 20px;
+        font-weight: normal;
       }
 
-    .home-content-container2 {
-
-    }
 
 }
 

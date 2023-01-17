@@ -14,12 +14,12 @@ const Home = () => {
                 </div>
                 <div className='home-content-text1'>
                     <h1>O carro perfeito para você</h1>
-                    <h2>Conheça os nosso carros e dê mais um passo na realização do seu sonho</h2>
+                    <p>Conheça os nosso carros e dê mais um passo na realização do seu sonho</p>
                 </div>
             </div>
             <div className='home-content-container2'>
-              <Button />
-                <h6>Comece agora a navegar</h6>
+                <Button />
+                <p>Comece agora a navegar</p>
 
             </div>
 
